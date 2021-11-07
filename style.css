@@ -48,6 +48,7 @@ hr {
   border-color: rgb(99, 99, 248);
 }
 .output {
+  width: 90%;
   text-align: center;
-  margin: auto;
+  margin: 2rem auto;
 }
