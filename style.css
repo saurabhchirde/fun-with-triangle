@@ -1,0 +1,53 @@
+html {
+  background-color: rgb(196, 196, 196);
+}
+h1 {
+  margin: 3rem auto 0.6rem auto;
+  text-align: center;
+  color: rgb(54, 54, 231);
+}
+hr {
+  width: 180px;
+  border-color: rgb(121, 121, 245);
+  margin-bottom: 1.6rem;
+}
+.container {
+  width: 350px;
+  font-size: 1.5rem;
+  margin: auto;
+  padding: 2rem;
+  text-align: left;
+  color: rgb(58, 58, 236);
+}
+#input1,
+#input2,
+#input3 {
+  width: 325px;
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 0.8rem auto;
+  padding: 0.5rem;
+}
+
+.isTriangle {
+  font-size: 1.5rem;
+  border-radius: 20px;
+  margin-top: 2rem;
+  padding: 5px 35px;
+  background-color: rgb(99, 99, 248);
+  color: rgb(231, 231, 231);
+  border-color: rgb(231, 231, 231);
+}
+.clear {
+  font-size: 1.5rem;
+  border-radius: 20px;
+  margin: 2rem auto auto 1rem;
+  padding: 5px 30px;
+  color: rgb(99, 99, 248);
+  background-color: rgb(231, 231, 231);
+  border-color: rgb(99, 99, 248);
+}
+.output {
+  text-align: center;
+  margin: auto;
+}
