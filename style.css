@@ -21,7 +21,9 @@ hr {
 }
 #input1,
 #input2,
-#input3 {
+#input3,
+#length1,
+#length2 {
   width: 325px;
   font-size: 1.5rem;
   display: inline-block;
@@ -30,7 +32,8 @@ hr {
 }
 
 .isTriangle,
-.submit {
+.submit,
+.calculate {
   font-size: 1.5rem;
   border-radius: 20px;
   margin-top: 2rem;
