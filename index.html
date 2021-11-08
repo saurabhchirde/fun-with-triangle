@@ -5,22 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Fun with triangle</title>
+    <title>Quiz</title>
   </head>
   <body>
-    <h1>Fun with triangle</h1>
-    <hr />
-    <div class="container">
-      <label for="input1">Enter first angle</label>
-      <input type="text" id="input1" placeholder="first angle" /><br />
-      <label for="input2">Enter second angle</label>
-      <input type="text" id="input2" placeholder="second angle" /><br />
-      <label for="input3">Enter third angle</label>
-      <input type="text" id="input3" placeholder="third angle" /><br />
-      <button class="isTriangle">Is Triangle ?</button>
-      <button class="clear">clear</button>
+    <h1>Trangle Quiz</h1>
+    <div class="container2">
+      <form>
+        <strong>Question 1:</strong> What is the third angle for the triangle,
+        where angle1 = 45° and angle 2 = 45° ?<br />
+        <strong>Options :</strong>
+        <input type="radio" id="45" name="thirdAngle" />
+        <label for="45">45°</label>
+        <input type="radio" id="90" name="thirdAngle" />
+        <label for="90">90°</label>
+        <input type="radio" id="60" name="thirdAngle" />
+        <label for="60">60°</label><br /><br />
+        <hr />
+
+        <strong>Question 2:</strong> If a triangle has an angle 90°, what is it
+        called ?<br />
+        <strong>Options :</strong>
+        <input type="radio" id="obtuse" name="called" />
+        <label for="obtuse">obtuse</label>
+        <input type="radio" id="acute" name="called" />
+        <label for="acute">acute</label>
+        <input type="radio" id="right angled" name="called" />
+        <label for="right angled">right angled</label><br /><br />
+        <hr />
+        <input type="submit" class="submit" value="Submit" />
+      </form>
     </div>
-    <h2 class="output"></h2>
-    <script src="script.js"></script>
+    <script src="quizScript.js"></script>
   </body>
 </html>
