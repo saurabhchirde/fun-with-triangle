@@ -5,8 +5,8 @@ const btnClear = document.querySelector(".clear");
 const output = document.querySelector(".output");
 
 function area() {
-  const b = base.value;
-  const h = height.value;
+  const b = Number(base.value);
+  const h = Number(height.value);
   if (b === "" || h === "" || b === "0" || h === "0") {
     output.innerText = "Base or height cannot be blank or zero 🙄";
   } else {

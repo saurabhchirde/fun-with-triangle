@@ -5,8 +5,8 @@ const btnClear = document.querySelector(".clear");
 const output = document.querySelector(".output");
 
 function hypotenuse() {
-  const l1 = length1.value;
-  const l2 = length2.value;
+  const l1 = Number(length1.value);
+  const l2 = Number(length2.value);
   if (l1 === "" || l1 === 0 || l2 === "" || l2 === 0) {
     output.innerText = "Enter valid lengths 😩";
   } else {
