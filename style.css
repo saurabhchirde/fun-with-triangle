@@ -23,7 +23,9 @@ hr {
 #input2,
 #input3,
 #length1,
-#length2 {
+#length2,
+#base,
+#height {
   width: 325px;
   font-size: 1.5rem;
   display: inline-block;
