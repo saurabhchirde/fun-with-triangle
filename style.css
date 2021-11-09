@@ -71,12 +71,14 @@ hr {
 
 a.is,
 a.quiz,
-a.hypo {
+a.hypo,
+.area {
   background-color: rgb(255, 255, 255);
   display: block;
   margin: auto;
   text-align: center;
   padding: 1rem 1.4rem;
   border-radius: 20px;
+  text-decoration: none;
   color: rgb(85, 85, 248);
 }
