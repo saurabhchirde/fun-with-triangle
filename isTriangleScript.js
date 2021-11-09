@@ -9,7 +9,10 @@ function calculateSumOfAngles() {
   const a2 = Number(inputAngles[1].value);
   const a3 = Number(inputAngles[2].value);
   sum = a1 + a2 + a3;
-  if (sum === 180) {
+  if (a1 === "" || a1 === 0 || a2 === "" || a2 === 0 || a3 === "" || a3 === 0) {
+    output.innerText =
+      "Angles cannot be blank or zero 🙄, try with some inputs ";
+  } else if (sum === 180) {
     output.innerText = "Yay!!! these angles can form a triangle 🤩";
   } else {
     output.innerText =
