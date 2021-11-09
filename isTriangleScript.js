@@ -10,10 +10,10 @@ function calculateSumOfAngles() {
   const a3 = Number(inputAngles[2].value);
   sum = a1 + a2 + a3;
   if (sum === 180) {
-    output.innerText = "Angles form a triangle";
+    output.innerText = "Yay!!! these angles can form a triangle 🤩";
   } else {
     output.innerText =
-      "These angles cannot form a triangle, try with other angles";
+      "These angles cannot form a triangle 😔, try with other angles ";
   }
 }
 

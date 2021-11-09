@@ -8,7 +8,7 @@ function hypotenuse() {
   const l1 = length1.value;
   const l2 = length2.value;
   if (l1 === "" || l1 === 0 || l2 === "" || l2 === 0) {
-    output.innerText = "Enter valid lengths";
+    output.innerText = "Enter valid lengths 😩";
   } else {
     output.innerText =
       "Hypotenuse of a triangle is : " + Math.sqrt(l1 * l1 + l2 * l2);
