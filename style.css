@@ -1,14 +1,14 @@
 html {
-  background-color: rgb(196, 196, 196);
+  background-color: rgb(143, 143, 143);
 }
 h1 {
   margin: 3rem auto 0.6rem auto;
   text-align: center;
-  color: rgb(54, 54, 231);
+  color: rgb(255, 255, 255);
 }
 hr {
   width: 180px;
-  border-color: rgb(121, 121, 245);
+  border-color: rgb(243, 243, 243);
   margin-bottom: 1.6rem;
 }
 .container {
@@ -17,7 +17,7 @@ hr {
   margin: auto;
   padding: 2rem;
   text-align: left;
-  color: rgb(58, 58, 236);
+  color: rgb(243, 243, 243);
 }
 #input1,
 #input2,
@@ -32,24 +32,31 @@ hr {
   margin: 0.8rem auto;
   padding: 0.5rem;
 }
+input {
+  border-radius: 30px;
+  border: white solid;
+}
 
 .isTriangle,
 .submit,
 .calculate {
   font-size: 1.5rem;
-  border-radius: 20px;
+  border-radius: 30px;
   margin-top: 2rem;
-  padding: 5px 103px;
+  padding: 8px 103px;
   background-color: rgb(99, 99, 248);
   color: rgb(231, 231, 231);
   border-color: rgb(231, 231, 231);
 }
+.calculate {
+  padding: 5px 120px;
+}
 .clear,
 .back {
   font-size: 1.5rem;
-  border-radius: 20px;
+  border-radius: 30px;
   margin: 1rem auto auto auto;
-  padding: 5px 56px;
+  padding: 8px 56px;
   color: rgb(99, 99, 248);
   background-color: rgb(231, 231, 231);
   border-color: rgb(99, 99, 248);
@@ -59,6 +66,7 @@ hr {
   width: 90%;
   text-align: center;
   margin: 2rem auto;
+  color: rgb(255, 255, 255);
 }
 
 /*  */
@@ -68,19 +76,20 @@ hr {
   margin: auto;
   padding: 2rem 0.6rem;
   text-align: left;
-  color: rgb(58, 58, 236);
+  color: rgb(243, 243, 243);
 }
 
 a.is,
 a.quiz,
 a.hypo,
-.area {
+a.area {
   background-color: rgb(255, 255, 255);
-  display: block;
-  margin: auto;
+  width: 170px;
+  display: inline-block;
+  margin: 0.4rem 0.4rem;
   text-align: center;
   padding: 1rem 1.4rem;
-  border-radius: 20px;
+  border-radius: 30px;
   text-decoration: none;
   color: rgb(85, 85, 248);
 }
