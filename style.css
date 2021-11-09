@@ -8,8 +8,8 @@ body {
 h1 {
   margin: auto auto 0.6rem auto;
   text-align: center;
+  font-size: 1.8rem;
   color: rgb(255, 255, 255);
-  background-color: rgb(163, 157, 255);
 }
 h2.formula {
   width: 350px;
@@ -38,9 +38,9 @@ hr {
 #base,
 #height {
   width: 328px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   display: inline-block;
-  margin: 0.8rem auto;
+  margin: 0.5rem auto;
   padding: 0.5rem;
 }
 input {
@@ -97,7 +97,7 @@ input {
   color: rgb(194, 194, 194);
 }
 nav {
-  background-color: rgb(163, 157, 255);
+  background-color: rgb(85, 85, 248);
   width: 100%;
   margin: auto;
   padding: 1rem 0;

@@ -7,7 +7,7 @@ const output = document.querySelector(".output");
 function area() {
   const b = Number(base.value);
   const h = Number(height.value);
-  if (b === "" || h === "" || b === "0" || h === "0") {
+  if (b === "" || h === "" || b === 0 || h === 0) {
     output.innerText = "Base or height cannot be blank or zero 🙄";
   } else {
     output.innerText = "Area of a triangle is : " + (1 / 2) * b * h;
