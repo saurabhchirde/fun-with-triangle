@@ -106,7 +106,7 @@ nav {
 
 .active {
   background-color: rgb(255, 255, 255);
-  width: 170px;
+  width: 160px;
   display: inline-block;
   margin: 0.4rem 0.4rem;
   text-align: center;
@@ -136,6 +136,6 @@ span {
 }
 .img {
   padding: 390px 1px;
-  background: url(/img.gif);
+  background: url(/tri.gif);
   background-repeat: repeat;
 }
