@@ -63,7 +63,7 @@ input {
 }
 
 .submit {
-  padding: 8px 90px;
+  padding: 10px 67px;
 }
 .calculate {
   padding: 8px 156px;
@@ -79,7 +79,7 @@ input {
   border-color: rgb(99, 99, 248);
 }
 .home {
-  padding: 8px 70px;
+  padding: 10px 65px;
 }
 
 .output {
@@ -91,8 +91,8 @@ input {
 
 /*  */
 .container2 {
-  width: 470px;
-  font-size: 1.5rem;
+  width: 380px;
+  font-size: 1.3rem;
   margin: auto;
   color: rgb(194, 194, 194);
 }
