@@ -27,9 +27,7 @@ hr {
   text-align: left;
   color: rgb(243, 243, 243);
 }
-#input1,
-#input2,
-#input3,
+.inputAngle,
 #length1,
 #length2,
 #base,
