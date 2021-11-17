@@ -9,6 +9,9 @@ function area() {
   const h = Number(height.value);
   if (b === "" || h === "" || b === 0 || h === 0) {
     output.innerText = "Base or height cannot be blank or zero 🙄";
+  } else if (b < 0 || h < 0) {
+    output.innerText =
+      "Base or Height cannot be negative 🙄, enter some positive values ";
   } else {
     output.innerText = "Area of a triangle is : " + (1 / 2) * b * h;
   }
