@@ -4,7 +4,7 @@ const output = document.querySelector(".output");
 
 const correctAns = ["90°", "right angled"];
 
-function checkAns() {
+const checkAns = () => {
   const formData = new FormData(quizForm);
   let i = 0,
     score = 0;
@@ -15,6 +15,6 @@ function checkAns() {
     i++;
     output.innerText = "Your score is : " + score;
   }
-}
+};
 
 btnSubmit.addEventListener("click", checkAns);

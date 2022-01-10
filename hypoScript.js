@@ -4,7 +4,7 @@ const btnCalculate = document.querySelector(".calculate");
 const btnClear = document.querySelector(".clear");
 const output = document.querySelector(".output");
 
-function hypotenuse() {
+const hypotenuse = () => {
   const l1 = Number(length1.value);
   const l2 = Number(length2.value);
   if (l1 === "" || l1 === 0 || l2 === "" || l2 === 0) {
@@ -16,7 +16,7 @@ function hypotenuse() {
     output.innerText =
       "Hypotenuse of a triangle is : " + Math.sqrt(l1 * l1 + l2 * l2);
   }
-}
+};
 
 btnCalculate.addEventListener("click", hypotenuse);
 
